@@ -16,6 +16,7 @@ h2{
     text-align: center;
 	font-size: 20px;
 }
+
 h6{
     font-size: 18px;
     font-weight: normal;
@@ -82,6 +83,8 @@ nav a {
 .table{
     display: table;
     margin: 0 auto;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .menu-ind:hover{
@@ -114,40 +117,40 @@ nav li:hover a{
 	 width: 100%;
 	 min-height: 300px;
 
- }
+    }
 
  .sec {
 	 margin: 0px 10%;
- }
+    }
 
  .left{
 	 float: left;
 	 width: 60%;
 	 margin-right :2%;
- }
+    }
 
  .right{
 	 float: right;
 	 width: 35%;
 	 margin-right :3%;
- }
+    }
 
  .cleft, .cright, .sousleft, .sousright{
 	 width: 50%;
 	 float: left;
- }
+     }
 
  .sec::after, .exp::after, .descfor::after{
 	 content: "";
 	 display: table;
 	 clear: both;
- }
+    }
 
  #presentation{
 
 			border-top: 5px solid #5f6;
 			background-color: RGBa(70, 240, 80, 0.15);
-}
+        }   
 
 #parcours{
     border-top: 5px solid #f1dc4f;
@@ -166,7 +169,6 @@ nav li:hover a{
 
 
 /*************css experience pro******/
-
 .orange{
     border-top: 5px solid #e47d26;
     background-color: RGBa(228, 117, 38, 0.15);
@@ -191,25 +193,22 @@ nav li:hover a{
 
 }
 
-
-
 /************css hobbies********/
 
  .vert{
     border-top: 5px solid #5f6;
     background-color: RGBa(70, 240, 80, 0.15);
-}
+    }
 
  .bleu{
     border-top: 5px solid #29c;
     background-color: RGBa(30, 152, 212, 0.15);
-}
+    }
 
  .jaune{
 	   border-top: 5px solid #f3e241;
     background-color: RGBa(240, 225, 69, 0.15);
-
-}
+        }
 
 
 .leftexp{
@@ -243,7 +242,6 @@ nav li:hover a{
 
 
 /*************css formulaire******/
-
 .formcont{
     font-size: 16px;
     font-family: Verdana sans-serif;
@@ -258,7 +256,6 @@ nav li:hover a{
 	width: 50px;
 	height: 50px;
 }
-
 
 #section-1{
     background-color: rgba(168, 197, 36, 0.6);
@@ -306,7 +303,7 @@ input[type="submit"]:hover{
 
 
 .galerie{
-	  height: 100%;
+	height: 100%;
     margin:0;
     padding:0;
     background: url(images/img14.jpg) no-repeat center fixed;
@@ -319,33 +316,21 @@ input[type="submit"]:hover{
 .slideshow {
 
    width: 300px;
-
    height: 300px;
-
    overflow: hidden;
-
    border: 3px solid #F2F2F2;
-
 }
 
 .slideshow ul {
-
     /* 4 images donc 4 x 100% */
-
    width: 300%;
-
    height: 300px;
-
    padding:0; margin:0;
-
    list-style: none;
-
 }
 
 .slideshow li {
-
    float: left;
-
 }
 
 
